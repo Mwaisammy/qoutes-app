@@ -1,7 +1,9 @@
-import React from "react";
+// import { useGetCategory } from "@/app/hooks/use-get-category";
+// import React from "react";
 
-function CategoryPage() {
-  return <div>CategoryPage</div>;
-}
+// function CategoryPage() {
+//   const {} = useGetCategory();
+//   return <div>CategoryPage</div>;
+// }
 
-export default CategoryPage;
+// export default CategoryPage;

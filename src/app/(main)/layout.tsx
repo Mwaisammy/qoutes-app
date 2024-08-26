@@ -7,9 +7,10 @@ type Props = {
 
 function MainLayout({ children }: Props) {
   return (
-    <div className="bg-lime-600 min-h-screen p-5">
+    <div className="bg-lime-600 min-h-screen">
       <Header />
-      {children}
+
+      <div className="container lg:max-w-screen lg:max-auto"> {children}</div>
     </div>
   );
 }
